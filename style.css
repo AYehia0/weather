@@ -1,0 +1,122 @@
+body {
+    font-family: 'Carme', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #1E88E5; /* Updated background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px; /* Updated font size */
+    transition: color 0.3s;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    color: #007BFF;
+}
+
+.screenshots {
+    text-align: center;
+}
+
+.screenshots img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #007BFF;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1E88E5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Additional styles for the slideshow */
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px 20px; /* Added padding to create separation */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev {
+    left: 10px; /* Adjust the left position for the previous button */
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 10px; /* Adjust the right position for the next button */
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 123, 255, 0.8); /* Adjusted color to match a bluish theme */
+}
